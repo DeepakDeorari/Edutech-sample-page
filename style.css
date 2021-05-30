@@ -1,0 +1,120 @@
+body {
+	background-color:#f1f1f1;
+	font-size:1.2vw;
+}
+
+h1 {
+	color: navy;
+	margin-left: 30px;
+	font-size:2.2vw;
+}
+
+h2 {
+	color: #fd2343;
+	font-size: 2vw;
+}
+
+.header {
+	background-color:#f1f1f1;
+	padding:30px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+
+.left-col {
+	width: 20%;
+	padding:10px 20px;
+	float:left;
+	background-color:#f1f1f1;
+}
+
+.middle-col {
+	width: 60%;
+	float: left;
+	padding:0 20px;
+	background-color:#ffffff;
+}
+
+.right-col {
+	width: 20%;
+	float:left;
+	padding 0 20px;
+	background-color:#f1f1f1;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+@media only screen and (max-width: 500px) {
+	/* for tablets */
+	
+	.middle {
+		width:60%;
+		padding:0;
+	}
+	.left {
+		width:100%;
+	}
+	.right {
+		width:100%;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	/* for mobile phones */
+	.left-col, .middle-col, .right-col {
+		width: 100%;
+	}
+}
+
+.footer {
+	background-color: #001133;
+}
+
+.notice {
+	color:white;
+	font-size:0.5vw;
+	margin-left:500px;
+}
+
+#q{
+	font-weight: bold;
+	font-size:1.5vw;
+}
+
+table,th,td,tr {
+	border: 1px solid black;
+}
+
+th {
+	background-color:#d1d1d1;
+}
+
+#logo {
+	color:#564534;
+	/*font-size: 50px;*/
+	font-weight: bold;
+	padding-right: 1000px;
+	margin-top: 2px;
+}
+
+.interview-section {
+	margin-left:250px;
+}
+
+.links-container{
+	font-size:1.5vw;
+	color:#423232;
+	background-color:#ffffff;
+}
+
+#web-images {
+	max-width:100%;
+	height:auto;
+}
